@@ -1,0 +1,20 @@
+#container {
+	width: 30%;
+	margin: auto;
+}
+
+#title {
+	text-align: center;
+}
+
+dt {
+	font-weight: bold;
+}
+
+.small-p {
+	line-height: 0.5rem;
+}
+
+.date {
+	font-style: italic;
+}
