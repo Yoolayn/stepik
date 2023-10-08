@@ -1,0 +1,35 @@
+table, th, td {
+	border: 1px solid black;
+}
+
+.noborder {
+	border: none;
+}
+
+.nobg {
+	background-color: transparent;
+}
+
+.center-bold {
+	text-align: center;
+}
+
+.bg-gray {
+	background-color: #d3d3d3;
+}
+
+.bg-beige {
+	background-color: #ffffe0;
+}
+
+.bg-rose {
+	background-color: #f08080;
+}
+
+.bg-green {
+	background-color: #90ee90;
+}
+
+.bg-blue {
+	background-color: #add8e6;
+}
