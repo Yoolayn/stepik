@@ -1,0 +1,14 @@
+section {
+	display: block;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+}
+
+.radius {
+	height: 200px;
+	width: 200px;
+	background-image: url("https://th.bing.com/th/id/OIP.QED0wOdkG_ytLTJdKwbciQHaFL?pid=ImgDet&rs=1");
+	background-size: cover;
+	border-radius: 50%;
+}
