@@ -1,0 +1,27 @@
+.row {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.equal-width {
+	background-color: lightblue;
+	flex: 1;
+	text-align: center;
+}
+
+.row2 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.fixed-percentage {
+	background-color: lightblue;
+	flex: 0 0 40%;
+	text-align: center;
+}
+
+.flexible {
+	background-color: lightblue;
+	flex: 1;
+	text-align: center;
+}
