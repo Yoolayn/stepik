@@ -1,0 +1,17 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: lightblue;
+	align-items: center;
+}
+
+.nav {
+	display: flex;
+}
+
+.nav-list {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
