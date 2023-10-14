@@ -1,0 +1,53 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 300px);
+	gap: 16px;
+}
+
+
+.grid-item {
+	align-items: center;
+	color: white;
+	display: flex;
+	font-size: 24px;
+	height: 100px;
+	justify-content: center;
+	line-height: 100%;
+	text-align: center;
+	width: 100px;
+}
+
+.rotate-45 {
+	background-color: red;
+	transform: rotate(45deg);
+}
+
+.scale-up {
+	background-color: blue;
+	transform: scale(120%);
+}
+
+.translate {
+	background-color: green;
+	transform: translate(10px, 10px);
+}
+
+.flip-horizontal {
+	background-color: yellow;
+	transform: scaleX(-1);
+}
+
+.skew {
+	background-color: purple;
+	transform: skew(10deg, 0);
+}
+
+.rotate-translate {
+	background-color: olive;
+	transform: rotate(30deg) translateX(20px);
+}
+
+.scale-flip {
+	background-color: navy;
+	transform: scale(110%) scaleX(-1);
+}
