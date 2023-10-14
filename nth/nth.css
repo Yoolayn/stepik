@@ -1,0 +1,11 @@
+ul li:first-child {
+	color: red;
+}
+
+ul li:nth-child(even) {
+	color: red;
+}
+
+ul li:last-child {
+	color: blue;
+}
