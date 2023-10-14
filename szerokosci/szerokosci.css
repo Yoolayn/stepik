@@ -1,0 +1,19 @@
+section {
+	display: block;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+}
+
+div {
+	background-color: lightgray;
+}
+
+.left-block, .right-block {
+	margin-right: 20px;
+	width: calc((100% - x) / 4)
+}
+
+.middle-block {
+	width: calc((100% - x) / 2)
+}
