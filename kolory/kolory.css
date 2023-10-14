@@ -1,0 +1,19 @@
+div > span {
+	color: red;
+}
+
+div > ul {
+	display: none;
+}
+
+ul > li {
+	background-color: lightblue;
+}
+
+nav > a {
+	color: green;
+}
+
+div > img {
+	border: 1px solid black;
+}
