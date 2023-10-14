@@ -1,0 +1,29 @@
+.container {
+	display: grid;
+	grid-auto-rows: auto;
+	grid-template-areas:
+	"header header header"
+	"left content right"
+	"footer footer footer";
+	grid-template-columns: 200px 400px 250px;
+}
+
+.header {
+	grid-area: header;
+}
+
+.left {
+	grid-area: left;
+}
+
+.content {
+	grid-area: content;
+}
+
+.right {
+	grid-area: right;
+}
+
+.footer {
+	grid-area: footer;
+}
