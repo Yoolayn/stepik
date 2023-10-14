@@ -1,0 +1,19 @@
+a:hover {
+	color: red;
+}
+
+input:focus {
+	background-color: yellow;
+}
+
+.parent:hover > .hidden {
+	display: none;
+}
+
+.hidden {
+	display: inline;
+}
+
+li:not(:first-child) {
+	color: gray;
+}
