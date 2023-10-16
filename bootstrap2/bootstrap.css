@@ -5,7 +5,6 @@ body {
 	height: 100vh;
 	justify-content: space-between;
 	margin: 0;
-	overflow-x: hidden;
 }
 
 header {
@@ -43,6 +42,7 @@ header {
 	list-style: none;
 	display: flex;
 	justify-content: space-evenly;
+	/* margin: 5%; */
 	align-items: center;
 }
 
@@ -118,13 +118,10 @@ img.icon {
 	width: 25px;
 }
 
-.carousel-button {
-	text-decoration: none;
-	color: black;
-}
-
 section h2 {
 	font-weight: normal;
+	animation: scrollText 5s linear infinite;
+	transform: translateX(100%);
 	width: 100%;
 }
 
@@ -137,22 +134,12 @@ section h2 {
 	}
 }
 
-.carousel-button:active {
-	widht: 100%;
-}
-
-.carousel-button:active h2 {
-	transform: translateX(100%);
-	animation: scrollText 1s linear;
-	transform: translateX(100%);
-}
-
 .card-box {
 	display: flex;
 	flex 0 0 22vh;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 2vh 5%;
+	padding: 5%;
 }
 
 .card-elem {
