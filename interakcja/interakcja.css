@@ -6,7 +6,7 @@ input:focus {
 	background-color: yellow;
 }
 
-.parent:hover > .hidden {
+.parent:hover .hidden {
 	display: none;
 }
 
