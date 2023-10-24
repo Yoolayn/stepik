@@ -5,29 +5,26 @@ const rl = readline.createInterface({
 	output: process.stdout
 });
 
-function binarySearch (list, start, stop, search) {
+function answer(list, start, stop, search) {
 	if (start > stop) {
-		return "Brak elementu w ciągu!!!";
+		console.log("Brak elementu w ciągu!!!");
+		return;
 	}
-	q = Math.floor(start + stop / 2);
+	const q = (start + stop) / 2;
 	if (list[q] === search) {
-		return q;
+		console.log(q);
 	} else if (list[q] > search) {
-		return binarySearch(list, start, q - 1, search);
-	} else if (list[q] < search) {
-		return binarySearch(list, q + 1, stop, search);
+		answer(list, start, q - 1, search);
+	} else {
+		answer(list, q + 1, stop, search);
 	}
-}
-
-function answer (line, search) {
-	const nums = line.split(" ").map((elem) => {
-		return Number(elem);
-	});
-	return binarySearch(nums, 0, nums.length - 1, Number(search));
 }
 
 rl.on('line', (line) => {
-	rl.on('line', (search) => {
-		console.log(answer(line, search));
+	const n = line.split(" ").map((elem) => {
+		return Number(elem);
 	});
-});
+	rl.on('line', (search, nums = n) => {
+		answer(nums, 0, nums.length, Number(search));
+		});
+	});
