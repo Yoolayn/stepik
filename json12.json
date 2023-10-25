@@ -1,0 +1,117 @@
+[
+  {
+    "address": {
+      "building": "3707",
+      "coord": [
+        -101.8945214,
+        33.5197474
+      ],
+      "street": "82 Street",
+      "zipcode": "11372"
+    },
+    "borough": "Queens",
+    "cuisine": "American ",
+    "grades": [
+      {
+        "grade": "A",
+        "score": 12
+      },
+      {
+        "grade": "B",
+        "score": 19
+      },
+      {
+        "grade": "A",
+        "score": 11
+      },
+      {
+        "grade": "A",
+        "score": 11
+      },
+      {
+        "grade": "A",
+        "score": 12
+      },
+      {
+        "grade": "A",
+        "score": 7
+      }
+    ],
+    "name": "Burger King",
+    "restaurant_id": "40534067"
+  },
+  {
+    "address": {
+      "building": "15259",
+      "coord": [
+        -119.6368672,
+        36.2504996
+      ],
+      "street": "10 Avenue",
+      "zipcode": "11357"
+    },
+    "borough": "Queens",
+    "cuisine": "Italian",
+    "grades": [
+      {
+        "grade": "A",
+        "score": 11
+      },
+      {
+        "grade": "A",
+        "score": 8
+      },
+      {
+        "grade": "A",
+        "score": 10
+      },
+      {
+        "grade": "A",
+        "score": 10
+      },
+      {
+        "grade": "A",
+        "score": 7
+      },
+      {
+        "grade": "C",
+        "score": 34
+      }
+    ],
+    "name": "Cascarino'S",
+    "restaurant_id": "40668681"
+  },
+  {
+    "address": {
+      "building": "60",
+      "coord": [
+        -111.9975205,
+        42.0970258
+      ],
+      "street": "West Side Highway",
+      "zipcode": "10006"
+    },
+    "borough": "Manhattan",
+    "cuisine": "Japanese",
+    "grades": [
+      {
+        "grade": "A",
+        "score": 9
+      },
+      {
+        "grade": "A",
+        "score": 11
+      },
+      {
+        "grade": "A",
+        "score": 13
+      },
+      {
+        "grade": "A",
+        "score": 2
+      }
+    ],
+    "name": "Sports Center At Chelsea Piers (Sushi Bar)",
+    "restaurant_id": "40882356"
+  }
+]
