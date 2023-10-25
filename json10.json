@@ -1,0 +1,125 @@
+[
+  {
+    "address": {
+      "building": "65",
+      "coord": [
+        -73.9782725,
+        40.7624022
+      ],
+      "street": "West   54 Street",
+      "zipcode": "10019"
+    },
+    "borough": "Manhattan",
+    "cuisine": "American ",
+    "grades": [
+      {
+        "grade": "A",
+        "score": 11
+      },
+      {
+        "grade": "C",
+        "score": 131
+      },
+      {
+        "grade": "A",
+        "score": 11
+      },
+      {
+        "grade": "B",
+        "score": 25
+      },
+      {
+        "grade": "A",
+        "score": 11
+      },
+      {
+        "grade": "A",
+        "score": 13
+      }
+    ],
+    "name": "Murals On 54/Randolphs'S",
+    "restaurant_id": "40372466"
+  },
+  {
+    "address": {
+      "building": "345",
+      "coord": [
+        -73.9864626,
+        40.7266739
+      ],
+      "street": "East 6 Street",
+      "zipcode": "10003"
+    },
+    "borough": "Manhattan",
+    "cuisine": "Indian",
+    "grades": [
+      {
+        "grade": "A",
+        "score": 5
+      },
+      {
+        "grade": "A",
+        "score": 8
+      },
+      {
+        "grade": "A",
+        "score": 12
+      },
+      {
+        "grade": "P",
+        "score": 2
+      },
+      {
+        "grade": "A",
+        "score": 9
+      },
+      {
+        "grade": "C",
+        "score": 92
+      },
+      {
+        "grade": "C",
+        "score": 41
+      }
+    ],
+    "name": "Gandhi",
+    "restaurant_id": "40381295"
+  },
+  {
+    "address": {
+      "building": "130",
+      "coord": [
+        -73.984758,
+        40.7457939
+      ],
+      "street": "Madison Avenue",
+      "zipcode": "10016"
+    },
+    "borough": "Manhattan",
+    "cuisine": "Pizza/Italian",
+    "grades": [
+      {
+        "grade": "Z",
+        "score": 31
+      },
+      {
+        "grade": "C",
+        "score": 98
+      },
+      {
+        "grade": "C",
+        "score": 32
+      },
+      {
+        "grade": "B",
+        "score": 21
+      },
+      {
+        "grade": "A",
+        "score": 11
+      }
+    ],
+    "name": "Bella Napoli",
+    "restaurant_id": "40393488"
+  }
+]
