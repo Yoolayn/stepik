@@ -1,0 +1,20 @@
+[
+  {
+    "borough": "Bronx",
+    "cuisine": "Bakery",
+    "name": "Morris Park Bake Shop",
+    "restaurant_id": "30075445"
+  },
+  {
+    "borough": "Brooklyn",
+    "cuisine": "Hamburgers",
+    "name": "Wendy'S",
+    "restaurant_id": "30112340"
+  },
+  {
+    "borough": "Manhattan",
+    "cuisine": "Irish",
+    "name": "Dj Reynolds Pub And Restaurant",
+    "restaurant_id": "30191841"
+  }
+]
