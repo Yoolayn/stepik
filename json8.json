@@ -1,0 +1,93 @@
+[
+  {
+    "address": {
+      "building": "1007",
+      "coord": [ -73.856077, 40.848447 ],
+      "street": "Morris Park Ave",
+      "zipcode": "10462"
+    },
+    "borough": "Bronx",
+    "cuisine": "Bakery",
+    "grades": [
+      { "grade": "A", "score": 2 },
+      { "grade": "A", "score": 6 },
+      { "grade": "A", "score": 10 },
+      { "grade": "A", "score": 9 },
+      { "grade": "B", "score": 14 }
+    ],
+    "name": "Morris Park Bake Shop",
+    "restaurant_id": "30075445"
+  },
+  {
+    "address": {
+      "building": "2300",
+      "coord": [ -73.8786113, 40.8502883 ],
+      "street": "Southern Boulevard",
+      "zipcode": "10460"
+    },
+    "borough": "Bronx",
+    "cuisine": "American ",
+    "grades": [
+      { "grade": "A", "score": 11 },
+      { "grade": "A", "score": 4 },
+      { "grade": "A", "score": 3 }
+    ],
+    "name": "Wild Asia",
+    "restaurant_id": "40357217"
+  },
+  {
+    "address": {
+      "building": "1006",
+      "coord": [ -73.84856870000002, 40.8903781 ],
+      "street": "East 233 Street",
+      "zipcode": "10466"
+    },
+    "borough": "Bronx",
+    "cuisine": "Ice Cream, Gelato, Yogurt, Ices",
+    "grades": [
+      { "grade": "A", "score": 10 },
+      { "grade": "A", "score": 10 },
+      { "grade": "A", "score": 9 },
+      { "grade": "A", "score": 11 },
+      { "grade": "A", "score": 5 }
+    ],
+    "name": "Carvel Ice Cream",
+    "restaurant_id": "40363093"
+  },
+  {
+    "address": {
+      "building": "1236",
+      "coord": [ -73.8893654, 40.81376179999999 ],
+      "street": "238 Spofford Ave",
+      "zipcode": "10474"
+    },
+    "borough": "Bronx",
+    "cuisine": "Chinese",
+    "grades": [
+      { "grade": "A", "score": 8 },
+      { "grade": "A", "score": 10 },
+      { "grade": "B", "score": 15 }
+    ],
+    "name": "Happy Garden",
+    "restaurant_id": "40363289"
+  },
+  {
+    "address": {
+      "building": "277",
+      "coord": [ -73.8941893, 40.8634684 ],
+      "street": "East Kingsbridge Road",
+      "zipcode": "10458"
+    },
+    "borough": "Bronx",
+    "cuisine": "Chinese",
+    "grades": [
+      { "grade": "A", "score": 10 },
+      { "grade": "A", "score": 10 },
+      { "grade": "A", "score": 10 },
+      { "grade": "A", "score": 11 },
+      { "grade": "A", "score": 13 }
+    ],
+    "name": "Happy Garden",
+    "restaurant_id": "40364296"
+  }
+]
