@@ -9,18 +9,9 @@
 			Remove all code in `styles.css`!
 		-->
 		<link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 		<script type="module" src="script.js"></script>
-		<script>
-			const data = {
-				image: "https://i.ytimg.com/vi/kHjzuqq3b44/maxresdefault.jpg",
-				cardTitle: "Bob Dylan",
-				cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
-				button: {
-					url: "https://en.wikipedia.org/wiki/Bob_Dylan",
-					label: "Go to wikipedia"
-				}
-			};
-		</script>
 	</head>
 	<body>
 		<nav>
@@ -28,7 +19,34 @@
 			<a href="/page2.html">Other page</a>
 		</nav>
 		<main>
-			<div class="root"></div>
+			<div id="root"></div>
 		</main>
 	</body>
+	<script>
+		const data = {
+			image: "https://i.ytimg.com/vi/kHjzuqq3b44/maxresdefault.jpg",
+			cardTitle: "Bob Dylan",
+			cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
+			button: {
+				url: "https://en.wikipedia.org/wiki/Bob_Dylan",
+				label: "Go to wikipedia"
+			}
+		};
+		const App = () => {
+			return React.createElement(
+				"div",
+				{ className: "card m-5" },
+				React.createElement("img", { className: "card-img-top", src: data.image, alt: "Card image cap" }),
+				React.createElement(
+					"div",
+					{ className: "card-body" },
+					React.createElement("h5", { className: "card-title" }, data.cardTitle),
+					React.createElement("p", { className: "card-text" }, data.cardDescription),
+					React.createElement("a", { href: data.button.url, className: "btn btn-primary" }, data.button.label)
+				)
+			);
+		};
+
+		ReactDOM.render(React.createElement(App), document.getElementById("root"));
+	</script>
 </html>
