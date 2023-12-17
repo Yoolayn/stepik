@@ -1,0 +1,19 @@
+- (x) formualrz
+-- (x) imie
+-- (x) nazwisko
+-- (x) email
+-- (x) haslo
+-- (x) data urodzenia
+-- (x) zdjecie
+-- (x) akceptacja warunkow
+-- (x) przycisk submit
+-- (x) przycisk reset
+
+- (-) walidacja
+-- ( ) imie - wymagane
+-- ( ) nazwisko - wymagane
+-- ( ) email - wymagane
+-- (x) haslo - sila hasla
+-- ( ) data urodzenia - wymagane
+-- ( ) akceptacja warunkow - wymagane
+-- ( ) przycisk submit - mozna kliknac jak wszystko jest okej
