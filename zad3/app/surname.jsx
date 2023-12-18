@@ -1,16 +1,12 @@
 import Text from "./text"
 
-function Surname() {
+function Surname({ save }) {
 
 	function validator(i) {
-		return i.length > 4
+		return i.length > 0
 	}
 
-	function save(i) {
-		console.log(i)
-	}
-
-	return <Text save={save} validator={validator} field="Surname" errorMsg="surname is too short"/>
+	return <Text save={save} validator={validator} field="Surname" errorMsg="surname is too short" required={true}/>
 
 }
 

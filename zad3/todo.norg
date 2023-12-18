@@ -9,11 +9,11 @@
 -- (x) przycisk submit
 -- (x) przycisk reset
 
-- (-) walidacja
+- ( ) walidacja
 -- ( ) imie - wymagane
 -- ( ) nazwisko - wymagane
 -- ( ) email - wymagane
--- (x) haslo - sila hasla
+-- ( ) haslo - sila hasla
 -- ( ) data urodzenia - wymagane
 -- ( ) akceptacja warunkow - wymagane
 -- ( ) przycisk submit - mozna kliknac jak wszystko jest okej

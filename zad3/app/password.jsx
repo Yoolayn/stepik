@@ -28,7 +28,7 @@ function Password({ save }) {
 	}
 
 	return <label>
-			Password: <input type="password" onChange={validator}></input>
+			Password: <input type="password" onChange={validator} required={true}></input>
 			{error()}
 		</label>
 }
