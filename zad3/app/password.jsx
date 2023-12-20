@@ -1,36 +1,28 @@
 import { useState } from "react"
 
-function Password({ save }) {
-	const [ pass, setPass ] = useState("")
-	function validator(e) {
-		const pass = e.target.value
-		const len = pass.length
-		if (len >= 1 && len <= 4) {
-			setPass("too short")
-		} else if (len > 4 && len <= 7) {
-			save(pass)
-			setPass("weak")
-		} else if (len > 7 && len <= 10) {
-			save(pass)
-			setPass("average")
-		} else if (len > 10) {
-			save(pass)
-			setPass("strong")
-		} else {
-			setPass("")
-		}
-	}
+function Password({ setValue, value }) {
 
-	function error() {
-		if (pass !== "") {
-			return <p>password is {pass}</p>
+	const [ valid, setValid ] = useState(0)
+
+	function validator() {
+		if (value[0] === "") {
+			return
+		}
+		if (valid < 4) {
+			return <p>Password is too short!!</p>
+		} else if (valid < 7) {
+			return <p>Password strength is weak</p>
+		} else if (valid < 10) {
+			return <p>Password strength is medium</p>
+		} else {
+			return <p>Password strength is high</p>
 		}
 	}
 
 	return <label>
-			Password: <input type="password" onChange={validator} required={true}></input>
-			{error()}
-		</label>
+		Password: <input type="password" onChange={e => setValue(e, setValid)} value={value[0]} required={true}/>
+		{validator()}
+	</label>
 }
 
 export default Password

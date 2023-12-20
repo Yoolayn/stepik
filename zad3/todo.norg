@@ -1,19 +1,29 @@
-- (x) formualrz
--- (x) imie
--- (x) nazwisko
--- (x) email
--- (x) haslo
--- (x) data urodzenia
--- (x) zdjecie
--- (x) akceptacja warunkow
--- (x) przycisk submit
--- (x) przycisk reset
+* Create User
+** Form
+   - (x) Name
+   - (x) Surname
+   - (x) Email
+   - (x) Password
+   - (x) Birthday
+   - (x) Image
+   - (x) Terms and services
+   - (x) Submit
+   - (x) Reset
 
-- ( ) walidacja
--- ( ) imie - wymagane
--- ( ) nazwisko - wymagane
--- ( ) email - wymagane
--- ( ) haslo - sila hasla
--- ( ) data urodzenia - wymagane
--- ( ) akceptacja warunkow - wymagane
--- ( ) przycisk submit - mozna kliknac jak wszystko jest okej
+** Validation
+   - (x) Name - Length
+   - (x) Surname - Length
+   - (x) Email - Valid
+   - (x) Password - Length
+   - (x) Birthday - Earlier than today
+   - (x) Image - Optional
+   - (x) Terms and services - Required
+
+* Login User
+  -- ( ) add user to list
+
+** Login Form
+   - ( ) email
+   - ( ) password
+
+** Display user data

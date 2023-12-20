@@ -1,13 +1,22 @@
-import Text from "./text"
+import { useState } from "react"
 
-function Email({ save }) {
+function Email({ setValue, value }) {
 
-	function validator(email) {
-		return /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
+	const [ valid, setValid ] = useState(false)
+
+	function validator() {
+		if (value[0] === "") {
+			return
+		}
+		if (!valid) {
+			return <p>Email is not valid</p>
+		}
 	}
 
-	return <Text save={save} validator={validator} field="Email" errorMsg="email is not correct" required={true}/>
-
+	return <label>
+		Email: <input type="email" onChange={e => setValue(e, setValid)} value={value[0]} required={true}/>
+		{validator()}
+	</label>
 }
 
 export default Email

@@ -1,13 +1,22 @@
-import Text from "./text"
+import { useState } from "react"
 
-function Surname({ save }) {
+function Surname({ setValue, value }) {
 
-	function validator(i) {
-		return i.length > 0
+	const [ valid, setValid ] = useState(false)
+
+	function validator() {
+		if (value[0] === "") {
+			return
+		}
+		if (!valid) {
+			return <p>Surname is too short!!</p>
+		}
 	}
 
-	return <Text save={save} validator={validator} field="Surname" errorMsg="surname is too short" required={true}/>
-
+	return <label>
+		Surname: <input type="text" onChange={e => setValue(e, setValid)} value={value[0]} required={true}/>
+		{validator()}
+	</label>
 }
 
 export default Surname
