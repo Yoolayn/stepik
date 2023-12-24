@@ -27,3 +27,12 @@
    - ( ) password
 
 ** Display user data
+
+   @code javascript
+   // show uploaded image
+   e => {
+   	const image = e.target.value
+   	const src = URL.createObjectURL(image)
+   	document.getElementById("display").src = src
+   }
+   @end
