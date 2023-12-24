@@ -1,22 +1,22 @@
-import { useState } from "react"
+import { useState } from "react";
 
 function Birthday({ setValue, value }) {
 
-	const [ valid, setValid ] = useState(false)
+	const [ valid, setValid ] = useState(false);
 
 	function validator() {
 		if (value[0] === "") {
-			return
+			return;
 		}
 		if (!valid) {
-			return <p>Date of birth has to be earlier than today!</p>
+			return <p>Date of birth has to be earlier than today!</p>;
 		}
 	}
 
 	return <label>
 		Birthday: <input type="date" onChange={e => setValue(e, setValid)} required={true}/>
 		{validator()}
-	</label>
+	</label>;
 }
 
-export default Birthday
+export default Birthday;

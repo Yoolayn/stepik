@@ -2,10 +2,11 @@
 local registers = {
 	old = {},
 	new = {
+		["a"] = ":e app/app.jsx\n",
 		["c"] = ":e app/CreateAccount.jsx\n",
+		["l"] = ":e app/login.jsx\n",
 		["p"] = ":e app/page.tsx\n",
 		["t"] = ":e todo.norg\n",
-		["l"] = ":e app/login.jsx\n"
 	}
 }
 

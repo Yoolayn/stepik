@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import CreateAccount from "./CreateAccount"
+import App from "./app";
 
 export default function Home() {
-  return (
-		<CreateAccount/>
-  )
+
+	return (
+		<App/>
+	);
 }

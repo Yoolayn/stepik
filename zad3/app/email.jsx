@@ -1,22 +1,22 @@
-import { useState } from "react"
+import { useState } from "react";
 
 function Email({ setValue, value }) {
 
-	const [ valid, setValid ] = useState(false)
+	const [ valid, setValid ] = useState(false);
 
 	function validator() {
 		if (value[0] === "") {
-			return
+			return;
 		}
 		if (!valid) {
-			return <p>Email is not valid</p>
+			return <p>Email is not valid</p>;
 		}
 	}
 
 	return <label>
 		Email: <input type="email" onChange={e => setValue(e, setValid)} value={value[0]} required={true}/>
 		{validator()}
-	</label>
+	</label>;
 }
 
-export default Email
+export default Email;

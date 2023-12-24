@@ -1,22 +1,22 @@
-import { useState } from "react"
+import { useState } from "react";
 
 function Name({ setValue, value }) {
 
-	const [ valid, setValid ] = useState(false)
+	const [ valid, setValid ] = useState(false);
 
 	function validator() {
 		if (value[0] === "") {
-			return
+			return;
 		}
 		if (!valid) {
-			return <p>Name is too short!!</p>
+			return <p>Name is too short!!</p>;
 		}
 	}
 
 	return <label>
 		Name: <input type="text" onChange={e => setValue(e, setValid)} value={value[0]} required={true}/>
 		{validator()}
-	</label>
+	</label>;
 }
 
-export default Name
+export default Name;

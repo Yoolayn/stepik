@@ -20,11 +20,15 @@
    - (x) Terms and services - Required
 
 * Login User
-  -- ( ) add user to list
+  -- (x) add user to list
 
 ** Login Form
-   - ( ) email
-   - ( ) password
+   - (x) email
+   - (x) password
+
+* display user data on login
+  - ( ) get user data to display
+  - ( ) change view to display table
 
 ** Display user data
 
