@@ -47,7 +47,7 @@ function CreateAccount() {
 		const input = new Date(event.target.value);
 		const today = new Date();
 		isValid(input < today);
-		setBirthday(today.toISOString().split("T")[0]);
+		setBirthday([input.toISOString().split("T")[0], true]);
 	}
 
 	useEffect(() => {
@@ -97,7 +97,10 @@ function CreateAccount() {
 			<Password setValue={passwordValidator} value={password}/><br/>
 			<Birthday setValue={birthdayValidator} value={birthday}/><br/>
 			<label>
-				Image: <input type="file" onChange={e => setImage(e.target.value)}/><br/>
+				Image: <input type="file" onChange={e => {
+					const file = e.target.files[0];
+					setImage([file, true]);
+				}}/><br/>
 			</label>
 			<label>
 				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">

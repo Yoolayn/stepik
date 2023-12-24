@@ -5,8 +5,9 @@ local registers = {
 		["a"] = ":e app/app.jsx\n",
 		["c"] = ":e app/CreateAccount.jsx\n",
 		["l"] = ":e app/login.jsx\n",
+		["n"] = ":e todo.norg\n",
 		["p"] = ":e app/page.tsx\n",
-		["t"] = ":e todo.norg\n",
+		["t"] = ":e app/table.jsx\n",
 	}
 }
 

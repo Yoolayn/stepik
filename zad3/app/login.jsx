@@ -2,7 +2,7 @@
 import { useState, useContext } from "react";
 import { UsersContext } from "./UsersContext";
 
-function Login() {
+function Login({ onLogin }) {
 	const { value }	= useContext(UsersContext);
 	const [ email, setEmail ] = useState("");
 	const [ password, setPassword ] = useState("");
@@ -21,7 +21,7 @@ function Login() {
 		}
 		const user = users[0];
 		if (user.password === password) {
-			alert("successful login!");
+			onLogin(user);
 		} else {
 			alert("login failed!");
 		}
