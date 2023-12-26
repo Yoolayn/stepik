@@ -1,9 +1,9 @@
 * reducer function
-- ( ) GET_CURRENT_JEDI: return action.payload
-- ( ) SET_JOB: return \{state.job: action.job}
-- ( ) FINISH_TRAINING: state.job -> "Jedi Knight", state.weapons -> lightsaber: "blue"
-- ( ) JOIN_DARK_SIDE: state.job -> "Sith", state.side = "Dark", state.weapons -> lightsaber: "Red"
-- ( ) DEFAULT: return state
+  - (x) GET_CURRENT_JEDI: return action.payload
+  - (x) SET_JOB: return \{ ...state, state.job: action.job }
+  - (x) FINISH_TRAINING: state.job -> "Jedi Knight", state.weapons -> lightsaber: "blue"
+  - (x) JOIN_DARK_SIDE: state.job -> "Sith", state.side = "Dark", state.weapons -> lightsaber: "Red"
+  - (x) DEFAULT: return state
 
 @code javascript
 const lukeState = {

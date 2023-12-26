@@ -1,6 +1,11 @@
 import { v4 as uuidv4 } from "uuid";
 
 function Jedi({ jedi }) {
+
+	if (!jedi || Object.keys(jedi).length === 0) {
+		return <p>No active Jedi!</p>;
+	}
+
 	return <>
 		<div>
 			<span>{jedi.firstName} {jedi.lastName}</span>
@@ -15,7 +20,7 @@ function Jedi({ jedi }) {
 			<ul>
 				<span>weapons:</span>
 					{Object.entries(jedi.weapons).map(([weapon, name]) => {
-						return <li key={uuidv4()}>type: {weapon}; name: {name}</li>;
+						return <li key={uuidv4()}>type: {weapon}; {weapon === "lightsaber" ? "color" : "name"}: {name}</li>;
 					})
 				}</ul>
 			</div>
