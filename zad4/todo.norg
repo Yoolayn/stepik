@@ -1,0 +1,12 @@
+* make form
+  - (x) name - text
+  - (x) email - email
+  - (x) body - textarea
+* validation
+  - (x) name - required, 1 < name <	20
+  - (x) email - required, valid mail
+  - (x) body - optional
+
+* CommentsList
+  - (x) get data using axios
+  - (x) display comments
