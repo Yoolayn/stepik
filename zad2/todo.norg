@@ -1,0 +1,18 @@
+* reducer function
+- ( ) GET_CURRENT_JEDI: return action.payload
+- ( ) SET_JOB: return \{state.job: action.job}
+- ( ) FINISH_TRAINING: state.job -> "Jedi Knight", state.weapons -> lightsaber: "blue"
+- ( ) JOIN_DARK_SIDE: state.job -> "Sith", state.side = "Dark", state.weapons -> lightsaber: "Red"
+- ( ) DEFAULT: return state
+
+@code javascript
+const lukeState = {
+	firstName : "Luke",
+	lastName : "Skywalker",
+	job : "moisture farmer",
+	side : "light",
+	weapons: {
+		blaster : "DL-42"
+	}
+};
+@end
