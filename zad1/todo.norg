@@ -1,0 +1,14 @@
+* useReducer
+  - (x) INCREMENT: inc by 1
+  - (x) DECREMENT: dec by 1
+  - (x) ADD: add action.amount to counter
+  - (x) SUBTRACT: subtract action.amount to counter
+  - (x) SET: return action.value
+  - (x) DEFAULT: return current state
+* display
+  - (x) INCREMENT
+  - (x) DECREMENT
+  - (x) ADD
+  - (x) SUBTRACT
+  - (x) SET
+  - (x) DEFAULT
